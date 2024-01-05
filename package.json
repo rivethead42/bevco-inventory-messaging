@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "tsc": "tsc",
+    "start:prod": "node build index.js",
     "start": "ts-node-dev src/index.ts"
   },
   "keywords": [],
